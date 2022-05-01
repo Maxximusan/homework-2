@@ -1,0 +1,42 @@
+body{
+
+}
+/* спрятал 2 заголовка*/
+.hidden {
+    display: none;
+}
+/* убрал точки 2 страницы*/
+.list {
+list-style: none;
+}
+/* подсветка логотипа хедер\футер 2 страницы*/
+.logo{
+    color: #2196F3;
+}
+/* пока хз */
+.header-link {}
+
+/* подсветка навигации на 2х страницах */
+.current {
+    color: #2196F3
+}
+.btn-all:hover,
+.header-mail:hover,
+.header-mail:focus{
+    color: red;
+}
+
+/*  веб хедер*/
+.logo-header {
+    color:black
+}
+/* веб футер */
+.logo-footer{
+    color:white
+}
+
+/*  */
+.hero-section,
+.footer{
+    background-color: #2F303A;
+}
