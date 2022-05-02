@@ -19,7 +19,6 @@ list-style: none;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-
     text-decoration:none;
 }
 
@@ -35,8 +34,8 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-
 color: #212121;
+text-decoration:none;
 }
 
 /* подсветка навигации на 2х страницах */
@@ -50,18 +49,22 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
+text-decoration:none;
 }
 
 .header-mail:hover,
 .header-mail:focus{
     color: #2196F3;
 }
+.hero-section{
+text-align: center;
+}
+
 /* hero and main*/
 .hero-header{
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
@@ -69,17 +72,11 @@ color: #FFFFFF;
 
 .hero-btn{
     font-family: inherit;
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-        
-    display: flex;
-    align-items: center;
-    
     letter-spacing: 0.06em;
-        color: #FFFFFF;
-
+    color: #FFFFFF;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -94,7 +91,6 @@ text-transform: uppercase;
 color: #212121;
 }
 .text-benefits{
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -118,8 +114,6 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 .profession{
-font-weight: 400;
-font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
@@ -133,14 +127,15 @@ letter-spacing: 0.03em;
 .footer-text,
 .footer-mail,
 .footer-tel {
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71px;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+text-decoration:none;
 }
-/* footer text white */
-.ftw {
+/* footer text only */
+.fto {
+    font-style: normal;
     color: white;
 }
 /* бэкграунд */
@@ -176,8 +171,6 @@ letter-spacing: 0.06em;
 color: #212121;
 }
 .portfolio-text{
-font-weight: 400;
-font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
 }
