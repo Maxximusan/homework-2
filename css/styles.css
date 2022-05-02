@@ -123,6 +123,9 @@ letter-spacing: 0.03em;
 .logo-footer{
     color:white
 }
+.footer-address{
+font-style: normal;
+}
 
 .footer-text,
 .footer-mail,
@@ -132,10 +135,10 @@ line-height: 1.71px;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 text-decoration:none;
+
 }
 /* footer text only */
 .fto {
-    font-style: normal;
     color: white;
 }
 /* бэкграунд */
